@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('/Users/Abby E-D/Desktop/recipe webpage project/Kaoly Demo-Regular.ttf');
+}
+
+
+
+
+
+
+body{
+    background-color: #EEE4BB;
+    text-align: center;
+    color: #4D84CF;
+
+    font-family: "Arial";
+    font-weight: "lighter";
+
+
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+#search{
+    padding-top: 15px;
+}
+
+#searchtext{
+    width: 300px;
+    height: 30px;
+
+    border-radius: 8px;
+    border-style: solid;
+    background-color: #EEE4BB;
+    border-color: #4D84CF;
+
+    
+}
+
+#searchButton{
+    cursor: pointer;
+    width: 60px;
+    height: 35px;
+
+    border-radius: 8px;
+    border-style: none;
+    background-color: #4D84CF;
+    color:#EEE4BB;
+}
+
+.recipe{
+    text-align:left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#recipe-title{
+   
+    font-size: 20px;
+    
+    font-family: myFont;
+    margin-bottom: 0px;
+    
+}
+
+#recipe-description{
+    font-size: 12px;
+    margin: 0px;
+    font-family: "Arial";
+    font-weight: "lighter";
+    
+}
+
+#recipe-ingredients{
+   
+    font-size: 12px;
+}
+
+#recipe-author{
+   
+    font-size: 12px;
+}
+
+#recipe-link{
+   
+    font-size: 12px;
+}
+
+hr{
+    color: red;
+    size: 20px;
+}
